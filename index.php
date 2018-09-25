@@ -7,7 +7,7 @@
         <title>Prueba de Php con Bootstrap</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body style="background-color:  #cccc66">
+    <body style="background-color:#cccc66">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -32,7 +32,7 @@
                          <br>
                          <p>
                            Año (aaaa-mm-dd):
-                           <input class="form-control" data-validation = "date" data-validation-format = "yyyy-mm-dd" placeholder="Fecha" >  
+                        <input class="form-control" data-validation = "date" data-validation-format = "yyyy-mm-dd" placeholder="Fecha" required="required" >  
                          </p>
                      </form>
                       </div>
