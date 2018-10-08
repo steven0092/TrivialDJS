@@ -4,6 +4,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
         <title>Prueba de Php con Bootstrap</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     </head>
@@ -26,13 +27,12 @@
                     <form action="index2.php">
                         <input id ="cajaNombre " class="form-control" type="text" placeholder="Usuario" required="required">
                          <br/>
-                        <input id ="cajaPassword" class="form-control" type="text" placeholder="Contraseña"  required="required">
+                         <input id ="cajaPassword" class="form-control" type="password" placeholder="Contraseña"  required="required">
                          <br>
                          <button id="boton1"  class="btn btn-primary btn-block" type="submit">Entrar</button>
                          <br>
-                         <p>
-                           Año (aaaa-mm-dd):
-                        <input class="form-control" data-validation = "date" data-validation-format = "yyyy-mm-dd" placeholder="Fecha" required="required" >  
+                         <p>        
+                        <input class="form-control" data-validation = "date" data-validation-format = "yyyy-mm-dd" placeholder="Fecha">  
                          </p>
                      </form>
                       </div>
